@@ -1,0 +1,65 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  gap: 16px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00AEEF;
+}
+.hero {
+  min-height: 100vh;
+  background: url('https://st.hzcdn.com/simgs/00e1441706be5546_14-2301/home-design.jpg') 
+              center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px 30px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.hero-overlay h2 {
+  color: #00AEEF;
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.hero-overlay button {
+  background: #00AEEF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.hero-overlay button:hover {
+  background: #008ac0;
+}
